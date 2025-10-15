@@ -1,0 +1,165 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build-dotnet",
+			"type": "shell",
+			"command": "dotnet build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "run-dotnet-api",
+			"type": "shell",
+			"command": "dotnet run --project ChatApp.API/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		},
+		{
+			"label": "ef-migrate",
+			"type": "shell",
+			"command": "dotnet ef database update --project ChatApp.Infrastructure/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build-dotnet",
+			"type": "shell",
+			"command": "dotnet build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "run-dotnet-api",
+			"type": "shell",
+			"command": "dotnet run --project ChatApp.API/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		},
+		{
+			"label": "build-dotnet",
+			"type": "shell",
+			"command": "dotnet build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build-dotnet",
+			"type": "shell",
+			"command": "dotnet build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "run-dotnet-api",
+			"type": "shell",
+			"command": "dotnet run --project ChatApp.API/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		},
+		{
+			"label": "build-dotnet",
+			"type": "shell",
+			"command": "dotnet build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "run-dotnet-api",
+			"type": "shell",
+			"command": "dotnet run --project ChatApp.API/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		},
+		{
+			"label": "build-dotnet",
+			"type": "shell",
+			"command": "dotnet build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "run-dotnet-api",
+			"type": "shell",
+			"command": "dotnet run --project ChatApp.API/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		},
+		{
+			"label": "ef-migrate",
+			"type": "shell",
+			"command": "dotnet ef database update --project ChatApp.Infrastructure/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "run-dotnet-api",
+			"type": "shell",
+			"command": "dotnet run --project ChatApp.API/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		},
+		{
+			"label": "run-dotnet-api",
+			"type": "shell",
+			"command": "dotnet run --project ChatApp.API/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		},
+		{
+			"label": "run-dotnet-api",
+			"type": "shell",
+			"command": "dotnet run --project ChatApp.API/",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		}
+	]
+}
